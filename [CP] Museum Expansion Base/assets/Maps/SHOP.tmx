@@ -1,0 +1,93 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
+<map version="1.2" orientation="orthogonal" renderorder="right-down" width="8" height="9" tilewidth="16" tileheight="16" nextobjectid="3">
+  <tileset firstgid="1" name="z_spring_museum" columns="10" tilecount="90" tileheight="16" tilewidth="16">
+    <image source="spring_museum.png" width="160" height="144" />
+  </tileset>
+  <tileset firstgid="91" name="spring_outdoorsTileSheet" columns="25" tilecount="1975" tileheight="16" tilewidth="16">
+    <image source="spring_outdoorsTileSheet.png" width="400" height="1264" />
+  </tileset>
+  <tileset firstgid="2066" name="spring_town" columns="32" tilecount="2304" tileheight="16" tilewidth="16">
+    <image source="spring_town.png" width="512" height="1152" />
+  </tileset>
+  <layer name="Back" width="8" height="9">
+    <data encoding="csv">
+442,442,442,442,442,442,442,442,
+442,0,442,442,442,442,442,442,
+0,0,0,0,0,442,442,442,
+0,0,0,0,0,0,442,442,
+0,0,0,0,0,0,442,442,
+0,0,0,0,0,0,442,442,
+0,0,0,0,0,0,442,442,
+0,0,86,87,0,0,442,444,
+496,496,496,496,496,496,496,422
+</data>
+  </layer>
+  <objectgroup name="Back" />
+  <layer name="Buildings" width="8" height="9">
+    <data encoding="csv">
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,45,0,0,0,0,0,0,
+54,55,56,57,58,59,60,0,
+64,65,66,67,68,69,70,0,
+74,75,76,77,78,79,80,0,
+84,85,0,0,88,89,90,0,
+0,0,0,0,0,0,0,0
+</data>
+  </layer>
+  <objectgroup name="Buildings">
+    <object name="TileData" id="1" x="80" y="112" width="16" height="16">
+      <properties>
+        <property name="Action" value="LockedDoorWarp 12 14 Museumshop 800 1900" />
+      </properties>
+    </object>
+    <object name="TileData" id="2" x="96" y="112" width="16" height="16">
+      <properties>
+        <property name="Action" value="LockedDoorWarp 12 14 Museumshop 800 1900" />
+      </properties>
+    </object>
+  </objectgroup>
+  <layer name="Paths" width="8" height="9">
+    <data encoding="csv">
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0
+</data>
+  </layer>
+  <objectgroup name="Paths" />
+  <layer name="Front" width="8" height="9">
+    <data encoding="csv">
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,2112,0
+</data>
+  </layer>
+  <objectgroup name="Front" />
+  <layer name="AlwaysFront" width="8" height="9">
+    <data encoding="csv">
+14,15,16,17,0,0,0,0,
+24,25,26,27,28,29,0,0,
+34,35,36,37,38,39,40,0,
+44,0,46,47,48,49,50,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0
+</data>
+  </layer>
+  <objectgroup name="AlwaysFront" />
+</map>

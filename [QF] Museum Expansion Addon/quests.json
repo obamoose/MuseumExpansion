@@ -1,0 +1,167 @@
+{
+	"Format": "1.0",
+	"Quests": [
+		{
+			"Name": "randy_coffee",
+			"Type": "ItemDelivery",
+			"Title": "Randy wants some Coffee",
+			"Description": "Randy wants coffee, more important: don't tell Charlie...",
+			"Objective": "Bring hot coffee for Randy",
+			"DaysLeft": 5,
+			"Reward": 150,
+			"RewardType": "Money",
+			"Cancelable": true,
+			"Trigger": "Randy 395",
+			"ReactionText": "Oh, it looks delicious!$h#$b#Thanks farmer!",
+			"FriendshipGain": {
+				"Randy": 100
+			}
+		},
+		{
+			"Name": "guntherwoods_request",
+			"Type": "LostItem",
+			"Title": "Gunther Lost Artifact",
+			"Description": "Gunther lost an artefact from the museum, and he needs you to find it somewhere. Find the Dwarf Scroll and deliver to him, it's somewhere in the mountains...",
+			"Objective": "Find the item and give it to Gunther",
+			"Reward": "Quartz",
+			"RewardType": "Object",
+			"RewardAmmount": 2,
+			"Cancelable": false,
+			"Trigger": "GuntherWoods 96 Mountain 19 6",
+			"ReactionText": "Thank you @.$h#$b#I can't believe that I lost this. Don't tell anyone about it, if the Governor hears...$s#$b#But anyway, here is something for you, and other one to help you on making friendship with my nephew.$h",
+			"FriendshipGain": {
+				"GuntherWoods": 250
+			}
+		},
+		{
+			"Name": "charlie_foodrequest_sve",
+			"Type": "ItemDelivery",
+			"Title": "Something to cheer Gunther up",
+			"Description": "Charlie wants to give something to Gunther. Bring the Mayonnaise to Charlie. You will receive the proper payment after it.",
+			"Objective": "Bring Mayonnaise to Charlie.",
+			"Reward": 200,
+			"RewardType": "Money",
+			"Cancelable": false,
+			"Trigger": "Charlie 306",
+			"ReactionText": "Oh, really thank you @!$h#$b#This is something that Gunther likes a lot, and it looks homemade, so it's even better!$h",
+			"FriendshipGain": {
+				"Charlie": 100
+			}
+		},
+		{
+			"Name": "charlie_wintercoffee_craft",
+			"Type": "Crafting",
+			"Title": "Getting warm",
+			"Description": "Charlie is asking for a good coffee made of the farm. Make a coffee and deliver to him. (You must craft the item or it won't work).",
+			"Objective": "Make the Coffee",
+			"Cancelable": true,
+			"Trigger": "395 false",
+			"NextQuests": [
+				"charlie_wintercoffee_deliver"
+			]
+		},
+		{
+			"Name": "charlie_wintercoffee_deliver",
+			"Type": "ItemDelivery",
+			"Title": "Getting even warmer",
+			"Description": "Now that you have made the coffee, deliver it to Charlie.",
+			"Objective": "Deliver the coffee to Charlie.",
+			"Cancelable": false,
+			"Trigger": "Charlie 395",
+			"Reward": 150,
+			"RewardType": "Money",
+			"ReactionText": "Oh this is marvelous @!$h#$b#I love this type of coffee, it smells like home...$h#$b#Here @, your payment."
+		},
+		{
+			"Name": "charlie_beachforage_1",
+			"Type": "ItemDelivery",
+			"Title": "Fossil delivery",
+			"Description": "Charlie wants a Clam to seek for fossils. He needs for investigations of the museum.",
+			"Objective": "Find and deliver a Clam to Charlie",
+			"Cancelable": true,
+			"DaysLeft": 4,
+			"Trigger": "Charlie 372",
+			"Reward": 150,
+			"RewardType": "Money",
+			"ReactionText": "Oh this is exactly what I needed!$h#$b$This will help so much in the museum explorations on the fossils!#$b#Thanks for taking my request @! Here is your payment."
+		},
+		{
+			"Name": "charlie_beachforage_2",
+			"Type": "ItemDelivery",
+			"Title": "Fossil delivery",
+			"Description": "Charlie wants an Oyster to seek for fossils. He needs for investigations of the museum.",
+			"Objective": "Find and deliver an Oyster to Charlie",
+			"Cancelable": true,
+			"DaysLeft": 4,
+			"Trigger": "Charlie 723",
+			"Reward": 120,
+			"RewardType": "Money",
+			"ReactionText": "Oh this is exactly what I needed!$h#$b$This will help so much in the museum explorations on the fossils!#$b#Thanks for taking my request @! Here is your payment."
+		}
+	],
+	"Offers": [
+		{
+			"QuestName": "randy_coffee",
+			"OfferedBy": "Mail",
+			"OfferDetails": {
+				"Topic": "Slime Coffee",
+				"Text": "Hi @,^me wantz some coffee.^ please bring to me, don't tell Charlie...^       - Randy"
+			},
+			"When": {
+				"Seasons": "spring summer winter",
+				"EventSeen": "47360003",
+				"FriendshipLevel": "Randy 2"
+			}
+		},
+		{
+			"QuestName": "guntherwoods_request",
+			"OfferedBy": "Mail",
+			"OfferDetails": {
+				"Topic": "Gunther Lost Item",
+				"Text": "Hello @,^I have lost an important item of my museum.^I don't like to ask you this, but can you find it? I think that I lost somewhere in the mountains.^Don't tell to anyone about it. ^      - Gunther Woods"
+			},
+			"When": {
+				"not:Seasons": "fall",
+				"not:HasMod": "FlashShifter.StardewValleyExpandedALL",
+				"FriendshipLevel": "GuntherWoods 3"
+			}
+		},
+		{
+			"QuestName": "charlie_foodrequest_sve",
+			"OfferedBy": "Bulletinboard",
+			"When": {
+				"BuildingConstructed": "Coop",
+				"FriendshipLevel": "Charlie 3",
+				"not:HasMod": "FlashShifter.StardewValleyExpandedALL"
+			}
+		},
+		{
+			"QuestName": "charlie_wintercoffee_craft",
+			"OfferedBy": "NPC",
+			"OfferDetails": {
+				"NpcName": "Charlie",
+				"DialogueText": "I'm freezing in this weather...#$b#I really could enjoy a good cup of coffee...#$b#Can you make one for me? I like of the farm style."
+			},
+			"When": {
+				"Seasons": "winter",
+				"DaysOfWeek": "Monday Thursday Wednesday"
+			}
+		},
+		{
+			"QuestName": "charlie_beachforage_1",
+			"OfferedBy": "Bulletinboard",
+			"When": {
+				"FriendshipLevel": "Charlie 2",
+				"Random": 55
+			}
+		},
+		{
+			"QuestName": "charlie_beachforage_2",
+			"OfferedBy": "Bulletinboard",
+			"When": {
+				"FriendshipLevel": "Charlie 2",
+				"Random": 45
+			}
+		}
+	]
+}

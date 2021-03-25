@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
+<map version="1.2" orientation="orthogonal" renderorder="right-down" width="3" height="3" tilewidth="16" tileheight="16" nextobjectid="2">
+  <tileset firstgid="1" name="untitled tile sheet" columns="32" tilecount="2176" tileheight="16" tilewidth="16">
+    <image source="townInterior" width="512" height="1088" />
+  </tileset>
+  <layer name="Back" width="3" height="3">
+    <data encoding="csv">
+641,769,641,
+769,641,769,
+1,1,672
+</data>
+  </layer>
+  <objectgroup name="Back" />
+  <layer name="Buildings" width="3" height="3">
+    <data encoding="csv">
+1427,1427,1427,
+81,1390,81,
+113,1422,113
+</data>
+  </layer>
+  <objectgroup name="Buildings">
+    <object name="TileData" id="1" x="16" y="32" width="16" height="16">
+      <properties>
+        <property name="Action" value="LockedDoorWarp 6 24 Test2 900 2200" />
+      </properties>
+    </object>
+  </objectgroup>
+  <layer name="Front" width="3" height="3">
+    <data encoding="csv">
+257,0,257,
+289,0,289,
+0,0,0
+</data>
+  </layer>
+  <objectgroup name="Front" />
+  <layer name="Paths" width="3" height="3">
+    <data encoding="csv">
+0,0,0,
+0,0,0,
+0,0,0
+</data>
+  </layer>
+  <objectgroup name="Paths" />
+  <layer name="AlwaysFront" width="3" height="3">
+    <data encoding="csv">
+0,0,0,
+0,0,0,
+0,0,0
+</data>
+  </layer>
+  <objectgroup name="AlwaysFront" />
+</map>
