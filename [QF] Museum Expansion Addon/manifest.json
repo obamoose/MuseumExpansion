@@ -1,8 +1,8 @@
 {
   "Name": "Museum Expansion QF Addon",
   "Author": "andril11 (aka Mortimer)",
-  "Version": "1.0.0",
-  "Description": "The Quest Framework Addon for ME.",
+  "Version": "1.0.1",
+  "Description": "The Quest Framework Add-On for ME.",
   "UniqueID": "andril11.QF.MuseumExpansion",
   "MinimumApiVersion": "3.6.0",
   "UpdateKeys": ["Nexus:8248"],
