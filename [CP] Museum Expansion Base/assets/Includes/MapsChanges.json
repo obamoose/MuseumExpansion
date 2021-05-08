@@ -37,6 +37,7 @@
             "Action": "EditMap",
             "Target": "Maps/Town",
             "FromFile": "assets/Maps/SHOP.sve.tmx",
+            "PatchMode": "ReplaceByLayer",            
 			"When": {
                 "HasMod: |contains=FlashShifter.StardewValleyExpandedALL": "true"
             },
