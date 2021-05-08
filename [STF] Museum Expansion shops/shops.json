@@ -21,28 +21,18 @@
                     "ItemType": "Object",
                     "StockPrice": 100,
                     "ItemIDs": [
-                        196,
                         211,
-                        224,
                         223,
+						201,
                     ],
                 }, {
                     "ItemType": "Object",
-                    "StockPrice": 200,
+                    "StockPrice": 150,
                     "ItemIDs": [
-                        96,
-                        97,
-                        98,
-                        99
+                        220,
+                        221,
+						222,
                     ],
-                    "Stock": 3,
-                }, {
-                    "ItemType": "Object",
-                    "StockPrice": 1000,
-                    "ItemIDs": [
-                        499
-                    ],
-                    "Stock": 5,
                 },
             ],
             "ClosedMessage": "Come back later",
@@ -72,28 +62,18 @@
                     "ItemType": "Object",
                     "StockPrice": 100,
                     "ItemIDs": [
-                        196,
                         211,
-                        224,
                         223,
+						201,
                     ],
                 }, {
                     "ItemType": "Object",
-                    "StockPrice": 200,
+                    "StockPrice": 150,
                     "ItemIDs": [
-                        96,
-                        97,
-                        98,
-                        99
+                        220,
+                        221,
+						222,
                     ],
-                    "Stock": 3,
-                }, {
-                    "ItemType": "Object",
-                    "StockPrice": 1000,
-                    "ItemIDs": [
-                        499
-                    ],
-                    "Stock": 5,
                 },
             ],
             "ClosedMessage": "Come back later",

@@ -4,20 +4,30 @@
             "Action": "EditData",
             "Target": "Data/NPCDispositions",
             "Entries": {
-                "Charlie": "adult/polite/outgoing/neutral/male/datable/null/Other/summer 16/Gunther '' Randy ''/Test2 18 9/Charlie",
+                "Charlie": "adult/polite/outgoing/neutral/male/datable/null/Other/summer 16/Gunther '' Randy ''/Custom_CharlieRoom_ME 15 5/Charlie",
             }
         }, {
             "LogName": "Charlie Gift Tastes",
             "Action": "EditData",
             "Target": "Data/NPCGiftTastes",
             "Entries": {
-                "Charlie": "Oh wow this is amazing! Thank you!/84 64 103 395/How nice of you, this is great./96 97 98 99/Oh.. well it's the though that counts I guess./88 90/Gross... You're Gross.../68 70/Thanks/80 82//"
+                "Charlie": "Oh wow this is amazing! Thank you!/84 64 103 395/How nice of you, this is great./96 97 98 99/Oh.. well it's the though that counts I guess./88 90/Gross... You're Gross.../68 70/Thanks/80 82/"
             },
         }, {
             "LogName": "Charlie Sprites",
             "Action": "Load",
             "Target": "Characters/Charlie",
             "FromFile": "assets/SpriteSheets/{{TargetWithoutPath}}.png",
+        }, {
+            "LogName": "Charlie Resort Sprite",
+            "Action": "Load",
+            "Target": "Characters/Charlie_Beach",
+            "FromFile": "assets/SpriteSheets/Resort/Charlie_Beach.png",
+        }, {
+            "LogName": "Charlie Resort Sprite",
+            "Action": "Load",
+            "Target": "Portraits/Charlie_Beach",
+            "FromFile": "assets/SpriteSheets/Resort/PortraitCharlie_Beach.png",
         }, {
             "LogName": "Charlie Portraits",
             "Action": "Load",
@@ -85,7 +95,8 @@
                 "Inside.1": "Fresh cookies! Too bad that isn't for you...",
                 "Inside.2": "Oh, a globe! And here is Stardew Valley, but you can't find Pelican Town",
                 "Inside.3": "His fridge, It's full of veggies, and... Why there is an Ancient Doll here in there?",
-                "Inside.5": "You look at the mirrior. You look beautiful today. Just today.",
+				"Inside.4": "It's a trash can. Why the hell are you looking at the trash?",
+                "Inside.5": "It's a bathroom, and isn't yours. You creepy stalker...",
                 "Shop.1": "Why are you looking into the trash can?",
                 "Shop.2": "Randy looks happy with his new home.",
                 "Shop.3": "Books and more books...",
@@ -93,6 +104,7 @@
                 "Spouse.1": "These arcades are protected with a password...",
                 "Spouse.2": "You notice something under the sofa... It's just a old board game.",
                 "Spouse.3": "You take a look on Charlie's table... It has some letters to Sandy, and some paperwork.",
+				"GuntherOut.1": "Hello dear museum patrons, today the museum collection is only open for visitors. We will be open to see your artifacts at these days: Monday, Wednesday, Friday and Sunday.",
             },
         },
     ]

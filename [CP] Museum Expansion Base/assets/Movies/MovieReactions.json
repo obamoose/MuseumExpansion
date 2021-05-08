@@ -1,0 +1,168 @@
+{
+    "Changes": [{
+            "LogName": "Movie Theater Default",
+            "Action": "EditData",
+            "Target": "Data/MoviesReactions",
+            "Entries": {
+                //Charlie Reactions
+                "Charlie": {
+                    "NPCName": "Charlie",
+                    "Reactions": [{
+                            "Tag": "spring_movie_0",
+                            "Response": "like",
+                            "Whitelist": [],
+                            "SpecialResponses": {
+                                "BeforeMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "Not my favorite type of movie...$7#$b#But looks cool."
+                                },
+                                "DuringMovie": {
+                                    "ResponsePoint": "sprout_leave",
+                                    "Script": "/emote Charlie 20/message \"Looks like that Charlie is enjoying the movie.\"",
+                                    "Text": "Go little guy...$8#$b#Follow your heart...$8"
+                                },
+                                "AfterMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "I have to admit, I liked this movie a lot.$l"
+                                },
+                            },
+                            "ID": "reaction_1",
+                        }, {
+                            "Tag": "fall_movie_1",
+                            "Response": "dislike",
+                            "Whitelist": [],
+                            "SpecialResponses": {
+                                "BeforeMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "A horror movie?$7#$b#Not that I'm scared, it just makes me uncomfortable...$7#$b#I just hope that they don't kill any monster...$7"
+                                },
+                                "DuringMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "/emote Charlie 40/pause 500/emote Charlie 24/message \"Charlie is as sleep, he isn't enjoying the movie...\"",
+                                    "Text": "",
+                                },
+                                "AfterMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "What?$7#$b#Don't blame me @, these movies are boring.$7#$b#Living with a slime has it's perks.",
+                                },
+                            },
+                            "ID": "reaction_2",
+                        }, {
+                            "Tag": "fall_movie_0",
+                            "Response": "love",
+                            "Whitelist": [],
+                            "SpecialResponses": {
+                                "BeforeMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "This one looks interesting. If it become good, I'll bring Gunther here.#$b#This looks his type of movie.$h",
+                                },
+                                "DuringMovie": {
+                                    "ResponsePoint": "mysterium_shadow",
+                                    "Script": "/emote Charlie 32",
+                                    "Text": "Hahaha!$h#$b#It reminds me of Randy when he wants coffee!$h",
+                                },
+                                "AfterMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "That movie was great!$h#$b#But just between us @, you know what was going on in the movie?$7#$b#I'll look for the book, maybe in there we got the response."
+                                },
+                            },
+                            "ID": "reaction_3",
+                        }, {
+                            "Tag": "*",
+                            "Response": "like",
+                            "Whitelist": [],
+                            "SpecialResponses": {
+                                "BeforeMovie": {
+                                    "ResponsePoint ": null,
+                                    "Script ": "",
+                                    " Text ": "The food here is not that bad.#$b#It's good to have a Movie Theater here, sometimes the simple life is boring.#$b#Not that the valley is boring, we will always have a strange thing here and there.$h",
+                                },
+                                "DuringMovie": null,
+                                "AfterMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "It's always good to watch a movie, even if it's not that interesting.#$b#Well, I liked it. And you @?",
+                                },
+                            },
+                            "ID": "reaction_0",
+                        },
+                    ],
+                },
+                //Randy Reactions
+                "Randy": {
+                    "NPCName": "Randy",
+                    "Reactions": [{
+                            "Tag": "spring_movie_0",
+                            "Response": "love",
+                            "Whitelist": [],
+                            "SpecialResponses": {
+                                "BeforeMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "Jas said to me that this movie is good!$h#$b#I wanna get in now!",
+                                },
+                                "DuringMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "/emote Randy 20",
+                                    "Text": "Jas was right!$h#$b#Thanks for bringing me here @!$h"
+                                },
+                                "AfterMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "The lady at the food service here gave me a pat in the head. Maybe she likes me, she isn't everyday here...#$b#I guess her name was Juliet?#$b#I don't remember much..."
+                                },
+                            },
+                            "ID": "reaction_1",
+                        }, {
+                            "Tag": "*",
+                            "Response": "like",
+                            "Whitelist": [],
+                            "SpecialResponses": {
+                                "BeforeMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "Yay! A movie!$h#$b#Thank you @!$h"
+                                },
+                                "DuringMovie": null,
+                                "AfterMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "What is that machine over there?#$b#I saw people yelling at it..."
+                                },
+                            },
+                            "ID": "reaction_0",
+                        }, {
+                            "Tag": "horror",
+                            "Response": "hate",
+                            "Whitelist": [],
+                            "SpecialResponses": {
+                                "BeforeMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "Gunther likes this movie, I've heard once from him...",
+                                },
+                                "DuringMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "/emote Randy 28",
+                                    "Text": "...$3",
+                                },
+                                "AfterMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "Please @...$3#$b#Never. Do. That. Again.$a"
+                                },
+                            },
+                            "ID": "reaction_2"
+                        },
+                    ],
+                },
+            },
+        },
+    ],
+}

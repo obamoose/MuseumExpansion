@@ -1,0 +1,190 @@
+{
+    "Changes": [{
+		//Charlie
+			"LogName": "Egg Festival Charlie",
+            "Action": "EditData",
+            "Target": "Data/Festivals/spring13",
+            "TextOperations": [{
+                    "Operation": "Append",
+                    "Target": ["Entries", "Set-Up_additionalCharacters"],
+                    "Value": "Charlie 34 63 down",
+                    "Delimiter": "/"
+                },
+            ],
+        }, {
+			"LogName": "Flower Festival Charlie",
+            "Action": "EditData",
+            "Target": "Data/Festivals/spring24",
+            "TextOperations": [{
+                    "Operation": "Append",
+                    "Target": ["Entries", "Set-Up_additionalCharacters"],
+                    "Value": "Charlie 22 41 down",
+                    "Delimiter": "/"
+                },
+            ],
+        }, {
+			"LogName": "Luau Festival Charlie",
+            "Action": "EditData",
+            "Target": "Data/Festivals/summer11",
+            "TextOperations": [{
+                    "Operation": "Append",
+                    "Target": ["Entries", "Set-Up_additionalCharacters"],
+                    "Value": "Charlie 32 7 down",
+                    "Delimiter": "/"
+                },
+            ],
+        }, {
+			"LogName": "Jellies Festival Charlie",
+            "Action": "EditData",
+            "Target": "Data/Festivals/summer28",
+            "TextOperations": [{
+                    "Operation": "Append",
+                    "Target": ["Entries", "Set-Up_additionalCharacters"],
+                    "Value": "Charlie 43 24 down",
+                    "Delimiter": "/"
+                },
+            ],
+        }, {
+			"LogName": "Fair Festival Charlie",
+            "Action": "EditData",
+            "Target": "Data/Festivals/fall16",
+            "TextOperations": [{
+                    "Operation": "Append",
+                    "Target": ["Entries", "Set-Up_additionalCharacters"],
+                    "Value": "Charlie 64 65 down",
+                    "Delimiter": "/"
+                },
+            ],
+        }, {
+			"LogName": "Halloween Festival Charlie",
+            "Action": "EditData",
+            "Target": "Data/Festivals/fall27",
+            "TextOperations": [{
+                    "Operation": "Append",
+                    "Target": ["Entries", "Set-Up_additionalCharacters"],
+                    "Value": "Charlie 33 73 up",
+                    "Delimiter": "/"
+                },
+            ],
+        }, {
+			"LogName": "Ice-Forest Festival Charlie",
+            "Action": "EditData",
+            "Target": "Data/Festivals/winter8",
+            "TextOperations": [{
+                    "Operation": "Append",
+                    "Target": ["Entries", "Set-Up_additionalCharacters"],
+                    "Value": "Charlie 65 50 down",
+                    "Delimiter": "/"
+                },
+            ],
+        }, {
+			"LogName": "Christmas Festival Charlie",
+            "Action": "EditData",
+            "Target": "Data/Festivals/winter25",
+            "TextOperations": [{
+                    "Operation": "Append",
+                    "Target": ["Entries", "Set-Up_additionalCharacters"],
+                    "Value": "Charlie 53 71 up",
+                    "Delimiter": "/"
+                },
+            ],
+        }, {
+			//Randy
+			"LogName": "Egg Festival Randy",
+            "Action": "EditData",
+            "Target": "Data/Festivals/spring13",
+            "When": {"HasSeenEvent |contains=47360003": "true"},
+			"TextOperations": [{
+                    "Operation": "Append",
+                    "Target": ["Entries", "Set-Up_additionalCharacters"],
+                    "Value": "Randy 32 63 down",
+                    "Delimiter": "/"
+                },
+            ],
+        }, {
+			"LogName": "Flower Festival Randy",
+            "Action": "EditData",
+            "Target": "Data/Festivals/spring24",
+            "When": {"HasSeenEvent |contains=47360003": "true"},
+			"TextOperations": [{
+                    "Operation": "Append",
+                    "Target": ["Entries", "Set-Up_additionalCharacters"],
+                    "Value": "Randy 25 41 left",
+                    "Delimiter": "/"
+                },
+            ],
+        }, {
+			"LogName": "Luau Festival Randy",
+            "Action": "EditData",
+            "Target": "Data/Festivals/summer11",
+            "When": {"HasSeenEvent |contains=47360003": "true"},
+			"TextOperations": [{
+                    "Operation": "Append",
+                    "Target": ["Entries", "Set-Up_additionalCharacters"],
+                    "Value": "Randy 28 8 up",
+                    "Delimiter": "/"
+                },
+            ],
+        }, {
+			"LogName": "Jellies Festival Randy",
+            "Action": "EditData",
+            "Target": "Data/Festivals/summer28",
+            "When": {"HasSeenEvent |contains=47360003": "true"},
+			"TextOperations": [{
+                    "Operation": "Append",
+                    "Target": ["Entries", "Set-Up_additionalCharacters"],
+                    "Value": "Randy 44 24 down",
+                    "Delimiter": "/"
+                },
+            ],
+        }, {
+			"LogName": "Fair Festival Randy",
+            "Action": "EditData",
+            "Target": "Data/Festivals/fall16",
+            "When": {"HasSeenEvent |contains=47360003": "true"},
+			"TextOperations": [{
+                    "Operation": "Append",
+                    "Target": ["Entries", "Set-Up_additionalCharacters"],
+                    "Value": "Randy 67 67 left",
+                    "Delimiter": "/"
+                },
+            ],
+        }, {
+			"LogName": "Halloween Festival Randy",
+            "Action": "EditData",
+            "Target": "Data/Festivals/fall27",
+            "When": {"HasSeenEvent |contains=47360003": "true"},
+			"TextOperations": [{
+                    "Operation": "Append",
+                    "Target": ["Entries", "Set-Up_additionalCharacters"],
+                    "Value": "Randy 10 28 down",
+                    "Delimiter": "/"
+                },
+            ],
+        }, {
+			"LogName": "Ice-Forest Festival Randy",
+            "Action": "EditData",
+            "Target": "Data/Festivals/winter8",
+            "When": {"HasSeenEvent |contains=47360003": "true"},
+			"TextOperations": [{
+                    "Operation": "Append",
+                    "Target": ["Entries", "Set-Up_additionalCharacters"],
+                    "Value": "Randy 55 34 up",
+                    "Delimiter": "/"
+                },
+            ],
+        }, {
+			"LogName": "Christmas Festival Randy",
+            "Action": "EditData",
+            "Target": "Data/Festivals/winter25",
+            "When": {"HasSeenEvent |contains=47360003": "true"},
+			"TextOperations": [{
+                    "Operation": "Append",
+                    "Target": ["Entries", "Set-Up_additionalCharacters"],
+                    "Value": "Randy 18 52 left",
+                    "Delimiter": "/"
+                },
+            ],
+        },
+    ],
+}

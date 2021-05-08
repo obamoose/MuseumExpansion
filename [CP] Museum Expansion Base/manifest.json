@@ -1,18 +1,29 @@
 {
-  "Name": "Museum Expansion CP",
-  "Author": "andril11 and various artists",
-  "Description": "Adds Charlie to your world!",
-  "Version": "2.1.2",
-  "UniqueID": "andril11.charlie",
-  "ContentPackFor": {
-    "UniqueID": "Pathoschild.ContentPatcher"
-  },
-  "Dependencies": [
-        {
+    "Name": "Museum Expansion CP",
+    "Author": "andril11 and various artists",
+    "Description": "Adds Charlie to your world!",
+    "Version": "2.3.1",
+    "UniqueID": "andril11.charlie",
+    "ContentPackFor": {
+        "UniqueID": "Pathoschild.ContentPatcher"
+    },
+    "Dependencies": [{
             "UniqueID": "test2.andril11",
+        }, {
+            "UniqueID": "shop.museum",
+        }, {
+            "UniqueID": "SuperAardvark.AntiSocial",
+        }, {
+            "UniqueID": "Esca.CustomNPCExclusions",
+        }, {
+            "UniqueID": "FlashShifter.StardewValleyExpandedCP",
+            "IsRequired": false,
+        }, {
+            "UniqueID": "Rafseazz.RSVCP",
+            "IsRequired": false,
         },
     ],
-"UpdateKeys": [
-    "Nexus:6027"
-  ]
+    "UpdateKeys": [
+        "Nexus:6027"
+    ]
 }

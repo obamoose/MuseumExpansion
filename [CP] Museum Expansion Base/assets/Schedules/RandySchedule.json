@@ -1,6 +1,6 @@
 {
-  "Mon": "900 Museumshop 23 8 0 randy_read \"Strings\\schedules\\Randy:read.003\"/1200 Museumshop 11 7 3 \"Strings\\schedules\\Randy:trash.000\"/1400 Museumshop 25 7 0 \"Strings\\schedules\\Randy:map.001\"/1700 Museumshop 21 17 3 \"Strings\\schedules\\Randy:bottle.002\"/2000 Museumshop 23 16 0",
-  "Tue": "900 ArchaeologyHouse 21 11 2/1300 Town 87 103 2 randy_read/1600 Museumshop 23 16 0",
+  "Mon": "900 Custom_MuseumCafe_ME 23 8 0 randy_read \"Strings\\schedules\\Randy:read.003\"/1200 Custom_MuseumCafe_ME 11 7 3 \"Strings\\schedules\\Randy:trash.000\"/1400 Custom_MuseumCafe_ME 25 7 0 \"Strings\\schedules\\Randy:map.001\"/1700 Custom_MuseumCafe_ME 21 17 3 \"Strings\\schedules\\Randy:bottle.002\"/2000 Custom_MuseumCafe_ME 23 16 0",
+  "Tue": "900 ArchaeologyHouse 21 11 2/1300 Town 87 103 2 randy_read/1600 Custom_MuseumCafe_ME 23 16 0",
   "Wed": "GOTO Mon",
   "Thu": "GOTO Tue",
   "Fri": "GOTO Mon",

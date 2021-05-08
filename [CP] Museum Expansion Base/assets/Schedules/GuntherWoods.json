@@ -1,9 +1,9 @@
 {
-  "Mon": "800 ArchaeologyHouse 32 12 2 gunther_search /1100 ArchaeologyHouse 12 9 0/1500 ArchaeologyHouse 5 10 0",
-  "Tue": "GOTO Mon",
+  "Mon": "600 ArchaeologyHouse 4 8 2/1600 ArchaeologyHouse 11 9 0/1900 Custom_CharlieRoom_ME 8 8 0",
+  "Tue": "700 ArchaeologyHouse 32 12 2 gunther_search/930 Town 47 87 0/1200 Beach 24 30 3/1400 Beach 20 4 0/1500 Custom_CharlieRoom_ME 15 17 0",
   "Wed": "GOTO Mon",
-  "Thu": "GOTO Mon",
+  "Thu": "700 ArchaeologyHouse 32 12 2 gunther_search/930 Town 47 87 0/1200 Beach 24 30 3/1400 Beach 20 4 0/1500 Custom_CharlieRoom_ME 15 17 0",
   "Fri": "GOTO Mon",
-  "Sat": "GOTO Mon",
+  "Sat": "700 ArchaeologyHouse 32 12 2 gunther_search/930 Town 47 87 0/1200 Beach 24 30 3/1400 Beach 20 4 0/1500 Custom_CharlieRoom_ME 15 17 0",
   "Sun": "GOTO Mon",
 }

@@ -27,7 +27,7 @@
 	{
 	  "LogName": "Museum Shop events",
 	  "Action": "Load",
-	  "Target": "Data/Events/Museumshop",
+	  "Target": "Data/Events/Custom_MuseumCafe_ME",
 	  "FromFile": "assets/Events/Shopevents.en.json",
     },
     {

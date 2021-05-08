@@ -1,0 +1,26 @@
+{
+    "Changes": [{
+            "LogName": "Characters Concession Tastes Normal",
+            "Action": "EditData",
+            "Target": "Data/ConcessionTastes",
+            "Entries": {
+                "Charlie": {
+                    "Name": "Charlie",
+                    "LovedTags": ["Chocolate Popcorn", "Personal Pizza", "Apple Slices"],
+                    "LikedTags": ["Nachos", "Sour Slimes", "Popcorn", "Ice Cream Sandwich"],
+                    "DislikedTags": ["Joja Cola", "JojaCorn", "Rock Candy", "Truffle Popcorn"],
+                },
+                "Randy": {
+                    "LovedTags": ["Stardrop Sorbet", "Sour Slimes", "Star Cookie", "Jawbreaker"],
+                    "LikedTags": ["Ice Cream Sandwich", "Black Licorice", "Cotton Candy", "Joja Cola"],
+                    "DislikedTags": ["Fries", "Jasmine Tea", "Apple Slices", "Salted Peanuts"],
+                },
+                "GuntherWoods": {
+                    "LovedTags": ["Popcorn", "Jasmine Tea", "Panzanella Salad", "Kale Smoothie"],
+                    "LikedTags": ["Nachos", "Hummus Snack Pack", "Salted Peanuts", "Salmon Burger"],
+                    "DislikedTags": ["Cotton Candy", "JojaCorn", "Sour Slimes", "Jawbreaker"],
+                },
+            },
+        },
+    ],
+}

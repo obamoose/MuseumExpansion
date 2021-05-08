@@ -25,12 +25,20 @@
     "SeedShop_Entry": "Hello Pierre!/Mayo.../Rice and beans for Gunther.../A can of beans...",
     "Mon2": "Hello @! How are you doing?#$b# The museum is quite lonely sometimes, is good to have someone to talk to!$h",
     "Tue2": "Ahhhhhh....$7#$b#The museum is with low funds....$7#$b#I hope that the Governor doesn't close us, I don't know what I would do if the museum closes...$7",
-    "Wed2": "Hello @!#$b# How the farm is going? #$b# Your grandpa used to take a break in Wednesdays, he and Lweis used to fish in the beach, but I guess the mayor doesn't do that anymore...",
+    "Wed2": "Hello @!#$b# How the farm is going? #$b# Your grandpa used to take a break in Wednesdays, he and Lewis used to fish in the beach, but I guess the mayor doesn't do that anymore...",
     "Thu2": "Gunther told me that Zuzu city is huge!$h#$b# Have you seemed it? I always want to go there, but the bus ticket for this is too expensive...$7#$b# At least the town is pretty cool, we are blessed to have a beach here!$h",
     "Fri4": "In these days I'm drinking a lot of coffee since the museum is having a little more of work.#$b# But it's good! This means that we have more money and we aren't going to close, Gunther is happier these days.#$b# He even paid me more this month!$h",
     "Sat4": "Hey @! I baked some cookies last night, and Gunther like them!$h#$b# Here have some! [223]",
     "Sun4": "Hello @! How are you doing?#$b#%You ask him about the books that he has in hands.#$b# Oh, these?#$b# Don't tell everyone, I'm having some classes with Rasmoudious. I'm learning about some magical history.#$e# Please, don't tell Gunther, ok @?$7",
     "Mon6": "I think that I should spend more time with Gunther...$7#$b# I own him a lot, and the museum too.#$b# I wish that I could make something to him...$7",
     "Tue6": "Oh @, there are some leaves in your hair. Here let me take them off...#$b#%As soon he takes the leaves off, he looks you with and weird looking... #$b#%You ask him what is wrong.#$b#Oh nothing!$h#$b# It just as Rasmoudious told me, you have a great potential for magic. That explain why the junimos like you that much!#$e# I wish that I had the same magic level as you...$7#$b# But don't worry, Rasmoudious said that what I have is good too.",
-    "Wed6": "I'm here in the Valley in a long time.#$b# I remember when Dusty was just a puppy!$h#$b# I and Alex used to be very close, but we had some trouble between us.$s#$b# I hope that he still considers me as a friend...$7"
+    "Wed6": "I'm here in the Valley in a long time.#$b# I remember when Dusty was just a puppy!$h#$b# I and Alex used to be very close, but we had some trouble between us.$s#$b# I hope that he still considers me as a friend...$7",
+	
+	//resort
+	"Resort_Entering": "This is different from the beach at home!$h#$b#And the sea is so great!$h",
+	"Resort_Leaving": "I have to go home, this place is great.#$b#I have work to do, so I can't stay here all day, Gunther is waiting for me at the museum.",
+	"Resort_Shore": "The sea is so beautiful, inside there are several ancient artifacts that have not yet been discovered...#$b#One day, I'll look for them under the sea. I just need more time, you will see @!$h",
+	"Resort_Chair": "Hi @, just chilling out here for a while.#$b#It's strange, even when you're out of your house, you still want to sit down awhile.#$b#Even if that's what we do all day...",
+	"Resort_Bar": "The bar is good, I don't drink beer and other alcoholic beverages, but they have a good variety.#$b#Sometimes by saying this out loud, makes me feel like a dad or something...#$e#What's Randy doing to me...",
+	"Resort": "I see the volcano from here, I fear that it can blow up at any time soon...#$b#But, if that happens, we may have enough time to escape.",
 }

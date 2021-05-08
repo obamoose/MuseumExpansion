@@ -7,7 +7,7 @@
         }, {
        "LogName": "Museum Shop edit",
        "Action": "EditMap",
-       "Target": "Maps/Museumshop",
+       "Target": "Maps/Custom_MuseumCafe_ME",
        "MapProperties": {
        "ViewportFollowPlayer": "T"
        },
@@ -37,7 +37,7 @@
             "Action": "EditMap",
             "Target": "Maps/Town",
             "FromFile": "assets/Maps/SHOP.sve.tmx",
-            "When": {
+			"When": {
                 "HasMod: |contains=FlashShifter.StardewValleyExpandedALL": "true"
             },
             "FromArea": {
@@ -51,26 +51,6 @@
                 "Y": 82,
                 "Width": 8,
                 "Height": 10
-            },
-        }, {
-            "LogName": "No Gunther SVE",
-            "Action": "EditMap",
-            "Target": "Maps/Test2",
-            "FromFile": "assets/Maps/CharlieRoom.sve.tmx",
-            "When": {
-                "HasMod: |contains=FlashShifter.StardewValleyExpandedALL": "true"
-            },
-            "FromArea": {
-                "X": 0,
-                "Y": 0,
-                "Width": 13,
-                "Height": 16
-            },
-            "ToArea": {
-                "X": 102,
-                "Y": 82,
-                "Width": 13,
-                "Height": 16
             },
         }, {
             "LogName": "Entrance Shop Edit RE2",
@@ -96,7 +76,7 @@
         }, {
             "LogName": "Randy Shop edit",
             "Action": "EditMap",
-            "Target": "Maps/Museumshop",
+            "Target": "Maps/Custom_MuseumCafe_ME",
             "FromFile": "assets/Maps/shopmu3.tmx",
             "When": {
                 "HasSeenEvent |contains=47360008": "true"
@@ -135,20 +115,42 @@
             "Action": "EditMap",
             "When": {
                 "HasMod: |contains=FlashShifter.StardewValleyExpandedALL": "false",
+				"DayOfWeek: |contains=Tuesday, Thursday, Saturday": "true",
             },
             "Target": "Maps/ArchaeologyHouse",
             "FromFile": "assets/Maps/GuntherHide.tmx",
             "FromArea": {
                 "X": 0,
                 "Y": 0,
-                "Width": 3,
-                "Height": 2,
+                "Width": 4,
+                "Height": 3,
             },
             "ToArea": {
                 "X": 2,
                 "Y": 7,
-                "Width": 3,
-                "Height": 2,
+                "Width": 4,
+                "Height": 3,
+            },
+        },{
+            "LogName": "Hide Gunther SVE flag Closed",
+            "Action": "EditMap",
+            "When": {
+                "HasMod: |contains=FlashShifter.StardewValleyExpandedALL": "false",
+				"DayOfWeek: |contains=Tuesday, Thursday, Saturday": "true",
+            },
+            "Target": "Maps/ArchaeologyHouse",
+            "FromFile": "assets/Maps/GuntherHideClosed.tmx",
+            "FromArea": {
+                "X": 0,
+                "Y": 0,
+                "Width": 4,
+                "Height": 3,
+            },
+            "ToArea": {
+                "X": 2,
+                "Y": 7,
+                "Width": 4,
+                "Height": 3,
             },
         }, {
             "LogName": "Museum Shop Fix edit",
@@ -156,18 +158,18 @@
             "When": {
                 "HasSeenEvent |contains=47360002": "true"
             },
-            "Target": "Maps/Museumshop",
+            "Target": "Maps/Custom_MuseumCafe_ME",
             "FromFile": "assets/Maps/shopmu1.tmx",
             "FromArea": {
                 "X": 0,
                 "Y": 0,
-                "Width": 28,
+                "Width": 35,
                 "Height": 20,
             },
             "ToArea": {
                 "X": 0,
                 "Y": 0,
-                "Width": 28, 
+                "Width": 35, 
                 "Height": 20,
             },
         }, {
@@ -177,7 +179,7 @@
                 "HasSeenEvent |contains=47360003": "true",
                 "HasSeenEvent |contains=47360002": "true"
             },
-            "Target": "Maps/Museumshop",
+            "Target": "Maps/Custom_MuseumCafe_ME",
             "FromFile": "assets/Maps/Randy_Room.tmx",
             "FromArea": {
                 "X": 0,
@@ -191,6 +193,20 @@
                 "Width": 7,
                 "Height": 7,
             },
+        }, {
+            "LogName": "MuseumCafe Warps",
+            "Action": "EditMap",
+            "Target": "Maps/Custom_MuseumCafe_ME",
+            "AddWarps": [
+                "12 15 Town 108 90"
+            ]
+        }, {
+            "LogName": "CharlieRoom Warps",
+            "Action": "EditMap",
+            "Target": "Maps/Custom_CharlieRoom_ME",
+            "AddWarps": [
+                "6 25 ArchaeologyHouse 31 4"
+            ]
         },
     ]
 }

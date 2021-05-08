@@ -1,5 +1,6 @@
 {
-    "Format": "1.19.0",
+    "$schema": "https://smapi.io/schemas/content-patcher.json",
+	"Format": "1.21.0",
     "ConfigSchema": {
 
         "CharliePortrait": {
@@ -38,31 +39,44 @@
             },
         },
     ],
-
+    "CustomLocations": [{
+            "Name": "Custom_CharlieRoom_ME",
+            "FromMapFile": "assets/Maps Additions/CharlieRoom.tmx",
+        }, {
+            "Name": "Custom_GuntherJudgment_ME",
+            "FromMapFile": "assets/Maps Additions/Judgment.tmx",
+        }, {
+            "Name": "Custom_MuseumCafe_ME",
+            "FromMapFile": "assets/Maps Additions/shopmu.tmx",
+        },
+    ],
     "Changes": [{
-            "LogName": "Charlie Npc base",
+            "LogName": "Npcs Base loaders",
             "Action": "Include",
-            "FromFile": "assets/Includes/CharlieInclude.json",
-        }, {
-            "LogName": "Randy Npc base",
-            "Action": "Include",
-            "FromFile": "assets/Includes/RandyInclude.json",
-        }, {
+            "FromFile": "assets/Includes/CharlieInclude.json, assets/Includes/RandyInclude.json",
+        },{
             "LogName": "GuntherWoods Npc Base",
             "Action": "Include",
             "FromFile": "assets/Includes/GuntherWoodsInclude.json",
+			"When": {
+                "HasMod |contains=FlashShifter.StardewValleyExpandedALL, Yoshimax.BefriendMarlon, ChicoLopes.GuntherToNPC, Wolf.Gun": false
+            }
         }, {
             "LogName": "Events Include",
             "Action": "Include",
             "FromFile": "assets/Includes/EventsInclude.json",
         }, {
-            "LogName": "Npcs Festival Dialogues",
+            "LogName": "Npcs Festival Files",
             "Action": "Include",
-            "FromFile": "assets/Includes/FestivalDialogues.json",
+            "FromFile": "assets/Includes/FestivalDialogues.json, assets/Includes/FestivalPositions.json",
         }, {
-            "LogName": "Maps Include",
+            "LogName": "Maps Edits",
             "Action": "Include",
             "FromFile": "assets/Includes/MapsChanges.json",
+		}, {
+			"LogName": "Movie Files",
+			"Action": "Include",
+			"FromFile": "assets/Movies/ConcessionTastes.json, assets/Movies/MovieReactions.json",
 		}, {
                 "LogName": "Animations",
                 "Action": "EditData",
