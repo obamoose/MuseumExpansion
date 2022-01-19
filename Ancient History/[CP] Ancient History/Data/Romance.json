@@ -1,0 +1,33 @@
+{
+"Changes": [
+
+/*********
+** DialogueChanges
+*********/  
+     /*********
+     ** Jessie & Juliet
+     *********/     
+
+//SpouseRooms
+    //Load SpouseRooms
+    {
+        "Action": "EditData",
+        "Target": "Data/SpouseRooms",
+        "Entries":
+        {
+            "Charlie": "AH_SpouseRooms/0",
+            //"Mortimer": "RidgesideSpouseRooms/1",
+            //"WelwickTheSage": "RidgesideSpouseRooms/2",
+            //roommateRandy
+        }
+    },
+
+    // Load SpouseRoom Map
+    {
+        "Action": "Load",
+        "Target": "Maps/AH_SpouseRooms",
+        "FromFile": "Assets/Maps/{{TargetWithoutPath}}.tmx"
+    }   
+
+]
+}
